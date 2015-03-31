@@ -44,7 +44,7 @@ class Provider(BaseProvider):
         '{{url}}{{uri_path}}/{{uri_page}}{{uri_extension}}',
     )
     image_placeholder_services = (
-        'http://placekitten.com/{width}/{height}',
+        'http://placekitten.com/g/{width}/{height}',
         'http://placehold.it/{width}x{height}',
         'http://www.lorempixum.com/{width}/{height}',
         'http://dummyimage.com/{width}x{height}',
